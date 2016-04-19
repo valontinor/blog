@@ -122,4 +122,4 @@ def make_averager():
 ```
 注意到变量series是函数make_averager内的局部变量，因为series 的初始化是在make_averager函数体内。但是调用avg(10)时，make_averager也返回了，并且其局部变量series的范围扩展了，在内部函数averager内部也可以访问了。  
 在函数averager内部，series是一个“自由变量”（free variable），即变量不再绑定（bound）到它所定义的局部范围了，访问范围扩展了：  
-![Mou icon](file:///Users/aiver/Documents/closure.png)
+![Closure](file:///Users/aiver/Documents/closure.png)
