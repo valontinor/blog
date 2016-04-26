@@ -122,4 +122,5 @@ def make_averager():
 ```
 注意到变量series是函数make_averager内的局部变量，因为series 的初始化是在make_averager函数体内。但是调用avg(10)时，make_averager也返回了，并且其局部变量series的范围扩展了，在内部函数averager内部也可以访问了。  
 在函数averager内部，series是一个“自由变量”（free variable），即变量不再绑定（bound）到它所定义的局部范围了，访问范围扩展了：  
-![Closure](file:///Users/aiver/Documents/closure.png)
+![Closure](http://7xte88.com2.z0.glb.clouddn.com/closure.png)
+总结而言，闭包就是一个函数中的函数，它“维持”（retains）了外层函数定义的“自由变量”（free variables）的内部绑定，从而当闭包（函数）被调用时，它可以自由访问这些变量即使这些变量的定义范围已经不再可达了。就像图中的series变量，如果按照变量定义而言，series是定义在函数make_averager里面的，是一个local变量，它只能在make_averager函数内被访问，在内部函数averager内是不能被访问的，然而通过闭包，在函数averager内部就可以使用series了。

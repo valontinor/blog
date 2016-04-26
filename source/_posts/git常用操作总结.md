@@ -6,7 +6,7 @@ categories: 技术
 ---
 文自  [凹凸实验室](http://aotu.io/notes/2015/11/17/Git-Commands/)。  
 Git是目前世界上最先进的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。下面是一些Git常用方法的总结，以便回顾和查询。
-![Git](http://aotu.io/assets/img/post/mamboer/git-flow.jpg)
+![Git](http://7xte88.com2.z0.glb.clouddn.com/git-flow.jpg)
 <!--more-->
 #### 配置
 ```
@@ -15,7 +15,7 @@ $ git config --global user.email "email@example.com"
 ```
 #### 提交
 Git 追踪的（tracked）的是修改，而不是文件。
-![Commit](http://aotu.io/assets/img/post/mamboer/git-trees.jpg)
+![Commit](http://7xte88.com2.z0.glb.clouddn.com/git-trees.jpg)
 ```
 #将“当前修改”移动到暂存区(stage)
 $ git add somfile.txt
@@ -72,7 +72,7 @@ $ git clone https://github.com/Yikun/yikun.github.com.git path
 $ git clone git@github.com:Yikun/yikun.github.com.git path
 ```
 #### 分支操作
-![Branch](http://aotu.io/assets/img/post/mamboer/git-merge.png)
+![Branch](http://7xte88.com2.z0.glb.clouddn.com/git-merge.png)
 ```
 # 查看当前分支
 $ git branch
