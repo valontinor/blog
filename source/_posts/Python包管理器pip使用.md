@@ -10,7 +10,7 @@ pip是Python语言的一个包管理器，类似于CentOS里面的yum，Python�
 #### 安装pip
 ***
 pip可以在Unix/Linux，OS X和Windows系统中运行。  
-pip可以在以下版本的CPython下运行：2.6，2.7，3.1，3.2，3.3，3.4和pypy。如果你使用的是从 <python.org> 上下载的python且python版本 Python 2 >=2.7.9 or Python 3 >=3.4，pip已经安装在python里面了，但你可能需要更新一下pip的版本。  
+pip可以在以下版本的CPython下运行：2.6，2.7，3.1，3.2，3.3，3.4和pypy。如果你使用的是从 [python.org](http://python.org) 上下载的python且python版本 Python 2 >=2.7.9 或者 Python 3 >=3.4，pip已经安装在python里面了，但你可能需要更新一下pip的版本。  
 安装pip，安全的方法是通过官方脚本[get-pip.py](https://bootstrap.pypa.io/get-pip.py)，下载get-pip.py脚本到本地，运行以下命令：
 ```sh
 python get-pip.py
